@@ -1,5 +1,6 @@
 package com.pack.TestCases;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -23,6 +24,7 @@ public class LogibTestCase1 extends BaseClassCommon {
 	public void LoginCase_1()
 	{
 		Lp=new LoginPage();
+		//driver.findElement(By.xpath("//html")).click();
 		//Lp.loginButtonclick(prop.getProperty("email"),prop.getProperty("pass"));
 
  		
@@ -30,6 +32,6 @@ public class LogibTestCase1 extends BaseClassCommon {
 	@AfterMethod()
 	public void quit()
 	{
-		//driver.quit();
+		driver.quit();
 	}
 }
