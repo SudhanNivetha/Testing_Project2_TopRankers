@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52386" started-at="2019-09-28T15:09:22Z" finished-at="2019-09-28T15:10:15Z">
+  <suite name="Failed suite [Default suite]" duration-ms="37050" started-at="2019-09-29T13:43:53Z" finished-at="2019-09-29T13:44:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52386" started-at="2019-09-28T15:09:22Z" finished-at="2019-09-28T15:10:15Z">
+    <test name="Default test(failed)" duration-ms="37050" started-at="2019-09-29T13:43:53Z" finished-at="2019-09-29T13:44:31Z">
       <class name="com.pack.TestCases.LogibTestCase1">
-        <test-method status="PASS" signature="launch()[pri:0, instance:com.pack.TestCases.LogibTestCase1@7921b0a2]" name="launch" is-config="true" duration-ms="32094" started-at="2019-09-28T20:39:22Z" finished-at="2019-09-28T20:39:55Z">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.pack.TestCases.LogibTestCase1@6a2bcfcb]" name="launch" is-config="true" duration-ms="16795" started-at="2019-09-29T19:13:54Z" finished-at="2019-09-29T19:14:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="FAIL" signature="LoginCase_1()[pri:0, instance:com.pack.TestCases.LogibTestCase1@7921b0a2]" name="LoginCase_1" duration-ms="20233" started-at="2019-09-28T20:39:55Z" finished-at="2019-09-28T20:40:15Z">
+        <test-method status="FAIL" signature="LoginCase_1()[pri:0, instance:com.pack.TestCases.LogibTestCase1@6a2bcfcb]" name="LoginCase_1" duration-ms="20165" started-at="2019-09-29T19:14:10Z" finished-at="2019-09-29T19:14:31Z">
           <exception class="org.openqa.selenium.json.JsonException">
             <message>
               <![CDATA[java.lang.reflect.InvocationTargetException
@@ -90,8 +90,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:58:41'
 System info: host: 'USER-PC', ip: '192.168.233.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.10 (bc3579f611bbc..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51157}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fd237e3262855ce5690a2b2d29c50756
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.10 (bc3579f611bbc..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49928}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 554667a3eac001073385bb4ceaebf5dd
 *** Element info: {Using=xpath, value=//input[@id='txt_login_email']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -121,11 +121,11 @@ Session ID: fd237e3262855ce5690a2b2d29c50756
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginCase_1 -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.pack.TestCases.LogibTestCase1@7921b0a2]" name="quit" is-config="true" duration-ms="1" started-at="2019-09-28T20:40:15Z" finished-at="2019-09-28T20:40:15Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pack.TestCases.LogibTestCase1@6a2bcfcb]" name="quit" is-config="true" duration-ms="0" started-at="2019-09-29T19:14:31Z" finished-at="2019-09-29T19:14:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.pack.TestCases.LogibTestCase1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
 </testng-results>

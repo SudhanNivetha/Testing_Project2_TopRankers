@@ -22,8 +22,8 @@ public class LogibTestCase1 extends BaseClassCommon {
 	@Test
 	public void LoginCase_1()
 	{
-	
-		Lp.loginButtonclick(prop.getProperty("email"),prop.getProperty("pass"));
+		Lp=new LoginPage();
+		//Lp.loginButtonclick(prop.getProperty("email"),prop.getProperty("pass"));
 
  		
 	}

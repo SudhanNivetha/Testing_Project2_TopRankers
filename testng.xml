@@ -12,4 +12,6 @@
       </class> <!-- com.pack.TestCases.LogibTestCase1 -->
     </classes>
   </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->happy
+  </suite> <!-- Failed suite [Default suite] -->
+
+	
