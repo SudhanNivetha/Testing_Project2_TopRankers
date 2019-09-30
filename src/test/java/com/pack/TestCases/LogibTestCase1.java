@@ -21,9 +21,10 @@ public class LogibTestCase1 extends BaseClassCommon {
 		//Lp.clickLogin();
 	}
 	@Test
-	public void LoginCase_1()
+	public void LoginCase_1() throws InterruptedException
 	{
 		Lp=new LoginPage();
+		Thread.sleep(5000);
 		//driver.findElement(By.xpath("//html")).click();
 		//Lp.loginButtonclick(prop.getProperty("email"),prop.getProperty("pass"));
 
